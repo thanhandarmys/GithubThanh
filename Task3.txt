@@ -1,0 +1,7 @@
+image = new SimpleImage("flowers.jpg");
+
+//Task 3: Set blue color to be double its values
+for (pixel: image) {
+  pixel.setBlue(pixel.getBlue()*2);
+}
+print(image);

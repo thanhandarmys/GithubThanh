@@ -1,0 +1,10 @@
+image = new SimpleImage("flowers.jpg");
+
+//Task 4: Set R, G, B to be average of their values
+for (pixel: image) {
+  avg = (pixel.getRed() + pixel.getGreen() + pixel.getBlue())/3;
+  pixel.setRed(avg);  
+  pixel.setGreen(avg);
+  pixel.setBlue(avg);  
+}
+print(image);

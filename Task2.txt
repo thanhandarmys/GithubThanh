@@ -1,0 +1,9 @@
+image = new SimpleImage("flowers.jpg");
+
+//Task 2: increase 30% lightness by set 1.3 times R, G, B
+for (pixel: image) {
+  pixel.setRed(pixel.getRed()*1.3);
+  pixel.setGreen(pixel.getGreen()*1.3);
+  pixel.setBlue(pixel.getBlue()*1.3);
+}
+print(image);

@@ -1,0 +1,7 @@
+image = new SimpleImage("flowers.jpg");
+
+//Task 6: Delete Green channel
+for (pixel: image) { 
+  pixel.setGreen(0);
+}
+print(image);
