@@ -7,3 +7,4 @@ for (pixel: image) {
   pixel.setBlue(pixel.getBlue()*1.3);
 }
 print(image);
+123
